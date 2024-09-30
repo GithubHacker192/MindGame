@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(209, 242, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+title {
+    width: auto;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+@keyframes color-change {
+    to {background-color: rgb(209, 242, 255);};
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 5px;
+
+}
+.links a:hover{
+    animation-name: color-change;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+
+.play {
+    background-color: blue;
+}
+.about {
+    background-color: lightgreen;
+}
+.github {
+    background-color: lightcoral;
+}
