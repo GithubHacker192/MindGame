@@ -8,29 +8,28 @@ title {
 }
 h1 {
     text-align: center;
+    font-size: 4vw;
 }
 @keyframes color-change {
     to {background-color: rgb(209, 242, 255);};
 }
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .links a{
     text-decoration: none;
     color: black;
-    margin: 0px;
+    margin: 1px;
     padding: 5px;
-
+    transition: background-color 0.5s, transform 0.5s ease;
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
 }
 .links a:hover{
-    animation-name: color-change;
-    animation-duration: 0.25s;
-    animation-fill-mode: forwards;
-}
-
-.play {
-    background-color: blue;
-}
-.about {
-    background-color: lightgreen;
-}
-.github {
-    background-color: lightcoral;
+    background-color: coral;
 }
